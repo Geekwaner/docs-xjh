@@ -14,6 +14,5 @@
 - [简易视频播放器](/harmonyos/video-player)
 - [WebView](/harmonyos/webview)
 - [拖拽表格](/harmonyos/drag-table)
-- [卡片双向通信](/harmonyos/card-communication)
 - [编译构建](/harmonyos/build)
 - [装饰器@ObservedV2](/harmonyos/observed-v2)
