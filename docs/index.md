@@ -6,7 +6,7 @@ hero:
   name: "Geekwaner的博客"
   text: "嗨,终于等到你"
   tagline: 记录技术和生活
-  image: /public/background.svg
+  image: /background.svg
   actions:
     - theme: brand
       text: 开始阅读
