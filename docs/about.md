@@ -7,7 +7,7 @@ outline: false
 
 ## 个人简介
 
-热爱技术，热爱分享。致力于前端开发和全栈技术的学习与实践。
+热爱技术，热爱分享。致力于前端、鸿蒙和 AI 技术的学习与实践。
 
 ## 技术栈
 
@@ -18,9 +18,8 @@ outline: false
 
 ## 联系方式
 
-- GitHub: [你的 GitHub 主页]
-- Email: your.email@example.com
-- 微信公众号：你的公众号
+- GitHub: [https://github.com/Geekwaner]
+- 微信公众号：https://mp.weixin.qq.com/s/yXU0Uny8gzqYZSglw68roA
 
 ## 博客介绍
 

@@ -10,45 +10,53 @@ export default defineConfig({
     nav: [
       { text: "首页", link: "/" },
       { text: "鸿蒙", link: "/harmonyos/" },
-      { text: "AI", link: "/notes/frontend" },
-      { text: "前端", link: "/notes/frontend" },
+      { text: "AI", link: "/ai/" },
+      { text: "前端", link: "/qianduan/" },
       { text: "关于我", link: "/about" },
     ],
 
-    sidebar: [
-      {
-        text: "鸿蒙开发",
-        items: [
-          { text: "组件通信", link: "/harmonyos/component-communication" },
-          { text: "存储数据", link: "/harmonyos/data-storage" },
-          { text: "动画", link: "/harmonyos/animation" },
-          { text: "生命周期", link: "/harmonyos/lifecycle" },
-          { text: "封装懒加载list组件", link: "/harmonyos/lazy-loading-list" },
-          { text: "路由控制", link: "/harmonyos/routing" },
-          { text: "简易操作沙箱文件", link: "/harmonyos/sandbox-file" },
-          { text: "简易视频播放器", link: "/harmonyos/video-player" },
-          { text: "WebView", link: "/harmonyos/webview" },
-          { text: "拖拽表格", link: "/harmonyos/drag-table" },
-          { text: "手势检测", link: "/harmonyos/gesture-detection" },
-          { text: "Canvas绘图", link: "/harmonyos/canvas-drawing" },
-          { text: "卡片双向通信", link: "/harmonyos/card-communication" },
-          { text: "编译构建", link: "/harmonyos/build" },
-          { text: "装饰器@ObservedV2", link: "/harmonyos/observed-v2" },
-        ],
-      },
-      {
-        text: "AI",
-        items: [{ text: "AI", link: "/notes/ai" }],
-      },
-      {
-        text: "前端",
-        items: [
-          { text: "前端开发", link: "/notes/frontend" },
-          { text: "后端开发", link: "/notes/backend" },
-          { text: "开发工具", link: "/notes/tools" },
-        ],
-      },
-    ],
+    sidebar: {
+      "/harmonyos/": [
+        {
+          text: "鸿蒙开发",
+          items: [
+            { text: "组件通信", link: "/harmonyos/component-communication" },
+            { text: "存储数据", link: "/harmonyos/data-storage" },
+            { text: "动画", link: "/harmonyos/animation" },
+            { text: "生命周期", link: "/harmonyos/lifecycle" },
+            {
+              text: "封装懒加载list组件",
+              link: "/harmonyos/lazy-loading-list",
+            },
+            { text: "路由控制", link: "/harmonyos/routing" },
+            { text: "简易操作沙箱文件", link: "/harmonyos/sandbox-file" },
+            { text: "简易视频播放器", link: "/harmonyos/video-player" },
+            { text: "WebView", link: "/harmonyos/webview" },
+            { text: "拖拽表格", link: "/harmonyos/drag-table" },
+            { text: "手势检测", link: "/harmonyos/gesture-detection" },
+            { text: "Canvas绘图", link: "/harmonyos/canvas-drawing" },
+            { text: "卡片双向通信", link: "/harmonyos/card-communication" },
+            { text: "编译构建", link: "/harmonyos/build" },
+            { text: "装饰器@ObservedV2", link: "/harmonyos/observed-v2" },
+          ],
+        },
+      ],
+      "/ai/": [
+        {
+          text: "AI",
+          items: [
+            { text: "AI简介", link: "/ai/" },
+            { text: "Cursor使用教程", link: "/ai/cuorse使用教程" },
+          ],
+        },
+      ],
+      "/qianduan/": [
+        {
+          text: "前端",
+          items: [{ text: "前端开发", link: "/qianduan/" }],
+        },
+      ],
+    },
 
     socialLinks: [
       {

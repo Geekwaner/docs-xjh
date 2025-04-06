@@ -10,7 +10,7 @@ hero:
   actions:
     - theme: brand
       text: 开始阅读
-      link: /notes/
+      link: /harmonyos/
     - theme: alt
       text: 关于我
       link: /about
