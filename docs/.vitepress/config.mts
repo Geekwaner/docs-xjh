@@ -2,6 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/docs-xjh/",
   title: "Geekwaner的博客",
   description: "我的个人技术博客与学习笔记",
   themeConfig: {
