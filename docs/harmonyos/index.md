@@ -18,4 +18,4 @@
 - [Canvas 绘图](/harmonyos/Canvas绘图)
 - [卡片双向通信](/harmonyos/卡片双向通信)
 - [编译构建](/harmonyos/编译构建)
-- [装饰器@ObservedV2](/harmonyos/装饰器)
+- [装饰器@ObservedV2](/harmonyos/装饰器@ObservedV2)
