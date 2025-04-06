@@ -13,7 +13,7 @@ export const harmonyosSidebar = [
       { text: "路由控制", link: "/harmonyos/路由控制" },
       { text: "简易操作沙箱文件", link: "/harmonyos/简易操作沙箱文件" },
       { text: "简易视频播放器", link: "/harmonyos/简易视频播放器" },
-      { text: "WebView", link: "/harmonyos/WebView" },
+      { text: "WebView", link: "/harmonyos/webView" },
       { text: "拖拽表格", link: "/harmonyos/拖拽表格" },
       { text: "手势检测", link: "/harmonyos/手势检测" },
       { text: "Canvas绘图", link: "/harmonyos/Canvas绘图" },

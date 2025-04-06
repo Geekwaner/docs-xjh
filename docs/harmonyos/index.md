@@ -12,7 +12,7 @@
 - [路由控制](/harmonyos/路由控制)
 - [简易操作沙箱文件](/harmonyos/简易操作沙箱文件)
 - [简易视频播放器](/harmonyos/简易视频播放器)
-- [WebView](/harmonyos/WebView)
+- [WebView](/harmonyos/webView)
 - [拖拽表格](/harmonyos/拖拽表格)
 - [手势检测](/harmonyos/手势检测)
 - [Canvas 绘图](/harmonyos/Canvas绘图)
