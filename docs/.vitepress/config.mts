@@ -6,6 +6,7 @@ export default defineConfig({
   base: "/docs-xjh/",
   title: "Geekwaner的博客",
   description: "我的个人技术博客与学习笔记",
+  head: [["link", { rel: "icon", type: "image/svg+xml", href: "icon.svg" }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -53,6 +54,10 @@ export default defineConfig({
     footer: {
       message: "使用 MIT 许可证",
       copyright: "Copyright © 2024-present",
+    },
+
+    search: {
+      provider: "local",
     },
   },
 });
