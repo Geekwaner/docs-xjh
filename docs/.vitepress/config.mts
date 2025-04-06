@@ -3,6 +3,7 @@ import { harmonyosSidebar } from "../harmonyos/Const";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  ignoreDeadLinks: true,
   base: "/docs-xjh/",
   title: "Geekwaner的博客",
   description: "我的个人技术博客与学习笔记",
