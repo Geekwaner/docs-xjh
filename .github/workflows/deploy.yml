@@ -4,7 +4,7 @@ on:
   push:
     branches: [master]
 
-# 设置tokenn访问权限
+# 设置token访问权限
 permissions:
   contents: read
   pages: write
@@ -41,11 +41,10 @@ jobs:
       - name: Build with VitePress
         run: |
           pnpm run docs:build # 启动项目
-          touch .nojekyll  # 通知githubpages不要使用Jekyll处理这个站点，不知道为啥不生效，就手动搞了
+          touch docs/.vitepress/dist/.nojekyll  # 确保.nojekyll文件在正确位置
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3 # 上传构建产物
         with:
-          name: vitepress-docs
           path: docs/.vitepress/dist
 
   # 部署工作
@@ -59,4 +58,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment # 指定id
-        uses: actions/deploy-pages@v2 # 将之前的构建产物部署到github pages中
+        uses: actions/deploy-pages@v4 # 更新到最新版本
